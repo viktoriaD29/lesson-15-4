@@ -1,6 +1,6 @@
-/** {
+* {
   box-sizing: border-box;
-}*/
+}
 
 .image-container {
   position: relative;
@@ -18,8 +18,9 @@
   line-height: 50px;
   position: absolute;
   top: 50%;
-  left: 39%;
-  transform: translate(0, -50%);
+  left: 50%;
+  /*margin-right: -50%;*/
+  transform: translate(-50%, -50%);
   width: 200px;
   height: 50px;
   background-color: bisque;
